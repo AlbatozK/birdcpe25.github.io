@@ -1,7 +1,62 @@
-#editor { 
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+
+html,
+body{
+  height:100%;
+  background-color:#333;
+}
+
+body{
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/*
+ *  Image profile
+ */
+#imageProfile{
+  width: 143px;
+  height: 180px;
+}
+
+/*
+ *  Section
+ */
+#Education,
+#Profession{
+  color:#fff;
+  padding: 10px 20px;
+}
+
+#Education{
+  background-color: #555;
+}
+#Profession{
+  background-color: #333;
+}
+
+/*
+ *  Cover
+ */
+.cover{
+  padding: 70px 20px 0px;
+}
+.cover-container{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+ *  Responsive
+ */
+@media (min-width: 768px){
+  .cover-container{
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px){
+  .cover-container{
+    width: 700px;
+  }
 }
