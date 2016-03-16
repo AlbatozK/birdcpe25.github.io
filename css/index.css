@@ -49,6 +49,7 @@ body{
 /*
  *  Responsive
  */
+ 
 @media (min-width: 768px){
   .cover-container{
     width: 100%;
