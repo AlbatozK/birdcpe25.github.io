@@ -9,6 +9,13 @@ body{
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  padding-top: 60px;
+}
+
+.jumbotron{
+  min-height:100%;
+  color:#fff;
+  padding: 0 20px;
 }
 
 /*
@@ -22,17 +29,29 @@ body{
 /*
  *  Section
  */
-#Education,
-#Profession{
-  color:#fff;
-  padding: 10px 20px;
-}
 
-#Education{
+.bg-strip-1{
+  background-color: #333;
+}
+.bg-strip-2{
   background-color: #555;
 }
-#Profession{
-  background-color: #333;
+
+/*
+ *  Anchor class
+ */
+a.anchor{
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden;
+}
+
+/*
+ *  Fade in
+ */
+.fadein-scroll{
+  opacity: 0;
 }
 
 /*
@@ -44,7 +63,7 @@ body{
 .cover-container{
   margin-left: auto;
   margin-right: auto;
-}
+ี}
 
 /*
  *  Responsive
