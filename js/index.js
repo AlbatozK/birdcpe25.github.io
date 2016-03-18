@@ -10,7 +10,7 @@ $(document).ready( function (){
       var upper_of_window = $(window).scrollTop();
       var bottom_of_window = $(window).scrollTop() + $(window).height();
       var transition_delay = 800;
-      if( upper_of_object > upper_of_window )
+      if( upper_of_object < bottom_of_window )
         $(this).animate({'opacity':'1'},transition_delay);
 /*
       if( upper_of_object > upper_of_window || bottom_of_object > upper_of_window ){
